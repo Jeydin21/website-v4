@@ -1,0 +1,14 @@
+/* Theme: Catppuccin Latte */
+
+main {
+	background: #eff1f5;
+	color: #4c4f69;
+}
+
+.icons-social a {
+	color: #4c4f69;
+}
+
+.icons-social a svg path{
+	fill: #4c4f69;
+}

@@ -1,0 +1,14 @@
+/* Theme: Catppuccin Macchiato */
+
+main {
+	background: #24273a;
+	color: #cad3f5;
+}
+
+.icons-social a {
+	color: #cad3f5;
+}
+
+.icons-social a svg path{
+	fill: #cad3f5;
+}

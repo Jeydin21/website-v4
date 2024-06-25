@@ -1,0 +1,14 @@
+/* Theme: Catppuccin Frappe */
+
+main {
+	background: #303446;
+	color: #c6d0f5;
+}
+
+.icons-social a {
+	color: #c6d0f5;
+}
+
+.icons-social a svg path{
+	fill: #c6d0f5;
+}

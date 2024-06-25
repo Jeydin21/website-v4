@@ -1,0 +1,14 @@
+/* Theme: Catppuccin Mocha */
+
+main {
+	background: #1e1e2e;
+	color: #cdd6f4;
+}
+
+.icons-social a {
+	color: #cdd6f4;
+}
+
+.icons-social a svg path{
+	fill: #cdd6f4;
+}
