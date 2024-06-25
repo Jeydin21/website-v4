@@ -57,19 +57,13 @@ main > .tagline {
 
 .icons-social i {
 	padding: 10px;
+	transition-duration: 0.3s;
+}
+
+.icons-social i:hover {
+	transform: translateY(-5px) rotate(5deg);
 }
 
 .icons-social a {
-  text-decoration: none;
-}
-
-.devto {
-	margin-bottom: -0.20rem;
-}
-
-.devto svg {
-	margin-bottom: -0.20rem;
-	margin-left: 0.675rem;;
-	width: 2.65rem;
-	height: 2.65rem;
+	text-decoration: none;
 }
