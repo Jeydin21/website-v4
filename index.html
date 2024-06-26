@@ -21,47 +21,56 @@
     <meta property="twitter:description" content="My personal landing page made with ❤️" />
     <meta property="twitter:image" content="https://j21.dev/favicon.png" />
 
+    <link rel="icon" href="favicon.ico" type="image/png" />
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" href="favicon.ico" type="image/png" />
-
-    <link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/themes/mocha.css">
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body>
-    <main>
-      <div class="intro">Hello, I'm Jeydin!</div>
-      <div class="tagline">Student | Anime Enjoyer | Linux Enthusiast</div>
-      <!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
-      <div class="icons-social">
-        <a target="_blank" href="mailto:jeydin@j21.dev">
-          <i class="far fas fa-envelope-square" aria-hidden="true" title="Email"></i>
-          <span class="sr-only">Email</span>
+  <body class="bg-background flex flex-col min-h-screen justify-center text-center">
+    <div class="sm:text-sm md:text-base lg:text-lg xl:text-xl">
+      <div class="text-text font-semibold text-[3.75em]">Hello, I'm Jeydin!</div>
+      <div class="text-text mt-20 mb-10 text-2xl font-light text-[1.5rem]">Student | Anime Enjoyer | Linux Enthusiast
+      </div>
+      <div class="flex flex-row justify-center">
+        <a class="no-underline" target="_blank" href="mailto:jeydin@j21.dev">
+          <div class="text-buttons p-2 duration-300 text-[3em] hover:-translate-y-1 hover:rotate-6" aria-hidden="true"
+            title="Email">
+            <i class="far fas fa-envelope-square"></i>
+          </div>
         </a>
-        <a target="_blank" href="https://github.com/Jeydin21">
-          <i class="fab fab fa-github-square" aria-hidden="true" title="GitHub"></i>
-          <span class="sr-only">GitHub</span>
+        <a class="no-underline" target="_blank" href="https://github.com/Jeydin21">
+          <div class="text-buttons p-2 duration-300 text-[3em] hover:-translate-y-1 hover:rotate-6" aria-hidden="true"
+            title="GitHub">
+            <i class="fab fab fa-github-square"></i>
+          </div>
         </a>
-        <a target="_blank" href="https://twitter.com/Jeydin21">
-          <i class="fab fa-twitter-square" aria-hidden="true" title="Twitter"></i>
-          <span class="sr-only">Twitter</span>
+        <a class="no-underline" target="_blank" href="https://twitter.com/Jeydin21">
+          <div class="text-buttons p-2 duration-300 text-[3em] hover:-translate-y-1 hover:rotate-6" aria-hidden="true"
+            title="Twitter">
+            <i class="fab fab fa-twitter-square"></i>
+          </div>
         </a>
-        <a target="_blank" href="https://www.instagram.com/jeydin21">
-          <i class="fab fab fa-instagram-square" aria-hidden="true" title="Instagram"></i>
-          <span class="sr-only">Instagram</span>
+        <a class="no-underline" target="_blank" href="https://www.instagram.com/jeydin21">
+          <div class="text-buttons p-2 duration-300 text-[3em] hover:-translate-y-1 hover:rotate-6" aria-hidden="true"
+            title="Instagram">
+            <i class="fab fab fa-instagram-square"></i>
+          </div>
         </a>
-        <a target="_blank" href="https://www.linkedin.com/in/jeydinpham">
-          <i class="fab fab fa-linkedin" aria-hidden="true" title="LinkedIn"></i>
-          <span class="sr-only">LinkedIn</span>
+        <a class="no-underline" target="_blank" href="https://www.linkedin.com/in/jeydinpham">
+          <div class="text-buttons p-2 duration-300 text-[3em] hover:-translate-y-1 hover:rotate-6" aria-hidden="true"
+            title="LinkedIn">
+            <i class="fab fab fa-linkedin"></i>
+          </div>
         </a>
       </div>
-    </main>
+    </div>
   </body>
+
+  <script src="tailwind.config.js"></script>
 
 </html>
